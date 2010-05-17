@@ -57,7 +57,7 @@ public class LoaderManager extends EventDispatcher implements ILoaderManager
     public var totalPreloading:Number = 0;
     public var totalPreloaded:Number = 0;
     public var context:LoaderContext = new LoaderContext(true, ApplicationDomain.currentDomain);
-
+   
     /**
      *
      *
@@ -267,5 +267,10 @@ public class LoaderManager extends EventDispatcher implements ILoaderManager
         loaded = new Array();
         loadedReference = new Dictionary(true);
     }
+
+    public function get loading():Boolean {
+        return _loading;
+    }
+    
 }
 }

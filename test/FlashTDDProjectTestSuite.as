@@ -1,7 +1,5 @@
 package  
 {
-	import com.flashartofwar.flashtdd.FlashTDDProjectTest;
-
 	[Suite]
 
 	[RunWith("org.flexunit.runners.Suite")]
@@ -9,6 +7,6 @@ package
 	public class FlashTDDProjectTestSuite 
 	{
 
-		public var test1 : FlashTDDProjectTest;
+		//public var test1 : FlashTDDProjectTest;
 	}
 }
